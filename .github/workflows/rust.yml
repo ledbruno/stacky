@@ -16,7 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build
+    - name: API:Build
+      working-directory: ./api
       run: cargo build --verbose
-    - name: Run tests
+    - name: API:Run-Tests
+      working-directory: ./api
       run: cargo test --verbose
