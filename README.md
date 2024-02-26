@@ -1,0 +1,2 @@
+# stacky
+Shared pasteboard 
